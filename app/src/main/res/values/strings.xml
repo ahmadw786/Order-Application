@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OrderApp</string>
+    <string name="add_product">Add Product</string>
+    <string name="title">Product Title</string>
+    <string name="price">Product Price</string>
+    <string name="date">Product Date</string>
+    <string name="hint_title">Enter product title</string>
+    <string name="hint_price">Enter product price</string>
+    <string name="hint_date">Enter product date</string>
+    <string name="tab_new_products">New Products</string>
+    <string name="tab_scheduled">Scheduled</string>
+    <string name="tab_delivered">Delivered</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Product Title EditText -->
+    <EditText
+        android:id="@+id/edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:layout_marginBottom="12dp"
+    android:hint="Product Title"
+    android:inputType="text"
+    android:padding="16dp"
+    android:textSize="16sp"
+    android:importantForAccessibility="yes"
+    android:focusable="true"
+    android:focusableInTouchMode="true" />
+
+    <!-- Product Price EditText -->
+    <EditText
+        android:id="@+id/edit_text_price"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:layout_marginBottom="12dp"
+    android:hint="Product Price"
+    android:inputType="numberDecimal"
+    android:padding="16dp"
+    android:textSize="16sp"
+    android:importantForAccessibility="yes"
+    android:focusable="true"
+    android:focusableInTouchMode="true" />
+
+    <!-- Product Date EditText -->
+    <EditText
+        android:id="@+id/edit_text_date"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+    android:layout_marginBottom="12dp"
+    android:hint="Product Date (YYYY-MM-DD)"
+    android:inputType="none"
+    android:padding="16dp"
+    android:textSize="16sp"
+    android:importantForAccessibility="yes"
+    android:focusable="true"
+    android:focusableInTouchMode="true" />
+
+</LinearLayout>
